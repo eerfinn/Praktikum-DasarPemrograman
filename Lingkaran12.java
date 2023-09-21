@@ -5,13 +5,14 @@ public class Lingkaran12 {
         Scanner input = new Scanner(System.in);
 
         int r;
-        double keliling, luas;
+        double keliling, luas, phi;
 
         System.out.print("Masukkan jari-jari lingkaran: ");
         r = input.nextInt();
         
-        keliling = 2 * 3.14 * r;
-        luas = 3.14 * r * r;
+        phi = 3.14;
+        keliling = 2 * phi * r;
+        luas = phi * r * r;
 
         System.out.println("Keliling lingkaran: " + keliling);
         System.out.println("Luas lingkaran: " + luas);
