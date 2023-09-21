@@ -5,12 +5,16 @@ public class Gaji12 {
         Scanner input =new Scanner(System.in);
 
         int jumlahMasuk, JumlahTidakMasuk, TotalGaji;
-        int gaji=40000, potonganGaji=25000;
+        int gaji, potonganGaji;
 
         System.out.println("Masukkan Jumlah hari Masuk Kerja Anda ");
         jumlahMasuk=input.nextInt();
+        System.out.println("Masukan Besaran Gaji ");
+        gaji=input.nextInt();
         System.out.println("Masukkan Jumlah hari Tidak Masuk Kerja Anda ");
         JumlahTidakMasuk=input.nextInt();
+        System.out.println("Masukan Potongan Gaji ");
+        potonganGaji=input.nextInt();
 
         TotalGaji=(jumlahMasuk * gaji) - (JumlahTidakMasuk * potonganGaji);
 
