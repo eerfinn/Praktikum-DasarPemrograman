@@ -14,7 +14,7 @@ public class Gaji12 {
         System.out.println("Masukkan Jumlah hari Tidak Masuk Kerja Anda ");
         JumlahTidakMasuk=input.nextInt();
         System.out.println("Masukan Potongan Gaji ");
-        potonganGaji=input.nextInt();
+        potonganGaji=input.nextInt()
 
         TotalGaji=(jumlahMasuk * gaji) - (JumlahTidakMasuk * potonganGaji);
 
